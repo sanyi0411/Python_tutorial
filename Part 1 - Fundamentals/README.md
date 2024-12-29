@@ -94,9 +94,9 @@ in these tutorials.
 - https://docs.python.org/3/library/string.html
 - https://www.w3schools.com/python/python_ref_string.asp
 
-## Type casting
-
 ## User input
+
+## Type casting
 
 ## What's next?
 

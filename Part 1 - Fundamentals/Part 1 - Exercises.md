@@ -9,6 +9,47 @@ print("Hello world!")
 </details>
 <br/>
 
+What are the five main data types in python?
+<details>
+<summary>Solution</summary>
+
+```
+numeric
+sequence
+dictionary
+boolean
+set
+```
+
+</details>
+<br/>
+
+The **numeric** data type can be extended. What types does **numeric** consist of?
+<details>
+<summary>Solution</summary>
+
+```
+int
+float
+complex
+```
+
+</details>
+<br/>
+
+The **sequence** data type can be extended. What types does **sequnce** consist of?
+<details>
+<summary>Solution</summary>
+
+```
+string
+list
+tuple
+```
+
+</details>
+<br/>
+
 Create a variable of type int and name it **number**. Print its value to the terminal.
 <details>
 <summary>Solution</summary>
@@ -74,9 +115,9 @@ Create a variable with a long string in it. How do you access the 3. letter in t
 <summary>Solution</summary>
 
 ```python
-my_long_string = "This is a very long sentence"
-print("The 2nd letter of the string is", my_long_string[1])
-print("The 6th letter of the string is", my_long_string[5])
+my_long_string = "This is a long sentence"
+print("The 2nd letter of the string is ", my_long_string[1])
+print("The 6th letter of the string is ", my_long_string[5])
 ```
 
 </details>
