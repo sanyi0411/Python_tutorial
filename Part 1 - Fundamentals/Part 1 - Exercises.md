@@ -99,6 +99,72 @@ print(type(name))
 </details>
 <br/>
 
+Create a variable with any value and reassign its value
+<details>
+<summary>Solution</summary>
+
+```python
+my_var = "Hello"
+print(my_var)
+my_var = "World"
+print(my_var)
+my_var = 5
+print(my_var)
+my_var = True
+print(my_var)
+```
+
+</details>
+<br/>
+
+What quotation marks can you use to declare a string in Python?
+<details>
+<summary>Solution</summary>
+
+Single or double quotations. Example:
+```python
+string1 = "John Doe"
+string2 = 'Mary Jane'
+```
+
+</details>
+<br/>
+
+How can you declare a string with quotation marks in it?
+<details>
+<summary>Solution</summary>
+
+ - Use single or and double quotation marks together
+```python
+print('"A sentence that needs quotation marks"')
+```
+ - Escape the double quotes within the string
+```python
+print("\"A word that needs quotation marks\"")
+```
+ - Use triple-quoted strings
+```python
+print(""" "A word that needs quotation marks" """)
+```
+
+</details>
+<br/>
+
+How can you create a long string that has a declaration spread across multiple lines? How will the output look like if you print this variable?
+<details>
+<summary>Solution</summary>
+
+```python
+my_long_string = "Hello and welcome \
+to your python tutorial \
+where we learn about \
+strings"
+print(my_long_string)
+```
+
+</details>
+<br/>
+
 Create a comment in your python file
 <details>
 <summary>Solution</summary>
@@ -123,6 +189,31 @@ print("The 6th letter of the string is ", my_long_string[5])
 </details>
 <br/>
 
+How can you get the length of a string?
+<details>
+<summary>Solution</summary>
+
+```python
+my_long_string = "This is a long sentence"
+print(len(my_long_string))
+```
+
+</details>
+<br/>
+
+How can you concatenate two string?
+<details>
+<summary>Solution</summary>
+
+```python
+str1 = "Hello "
+str2 = "World!"
+print(str1 + str2)
+```
+
+</details>
+<br/>
+
 You are given two numbers but in the following way. How can you add them together?
 
 ```python
@@ -138,6 +229,70 @@ num1 = 5
 num2 = "6"
 result = num1 + int(num2)
 print(result)
+```
+
+</details>
+<br/>
+
+What will be data type of the following variable?
+
+```python
+myvar = 5
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+int
+```
+
+</details>
+<br/>
+
+What will be data type of the following variable?
+
+```python
+myvar = 17.987
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+float
+```
+
+</details>
+<br/>
+
+What will be data type of the following variable?
+
+```python
+myvar = 'Hello'
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+str
+```
+
+</details>
+<br/>
+
+What will be data type of the following variable?
+
+```python
+myvar = 1j
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+complex
 ```
 
 </details>
