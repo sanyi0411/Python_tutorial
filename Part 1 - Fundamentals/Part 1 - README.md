@@ -94,9 +94,26 @@ in these tutorials.
 - https://docs.python.org/3/library/string.html
 - https://www.w3schools.com/python/python_ref_string.asp
 
+## Functions
+
+- https://www.geeksforgeeks.org/functions-programming/
+- https://en.wikipedia.org/wiki/Function_(computer_programming)
+- https://www.bbc.co.uk/bitesize/guides/zqh49j6/revision/5
+- https://www.bbc.co.uk/bitesize/guides/zqh49j6/revision/6
+
 ## User input
 
+- https://www.w3schools.com/python/python_user_input.asp
+- https://realpython.com/python-keyboard-input/
+- https://codehs.com/tutorial/rachel/user-input-in-python
+- https://www.youtube.com/watch?v=DB9Cq6TSTuQ&pp=ygURcHl0aG9uIHVzZXIgaW5wdXQ%3D
+- https://www.youtube.com/shorts/z7uJsC3k_Tk
+
 ## Type casting
+
+- https://www.youtube.com/watch?v=g0yLHhEXIR4
+- https://www.w3schools.com/python/python_casting.asp
+- https://www.geeksforgeeks.org/type-conversion-in-python/
 
 ## What's next?
 

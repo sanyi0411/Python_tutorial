@@ -297,3 +297,132 @@ complex
 
 </details>
 <br/>
+
+Write a function that returns the multiple of two given numbers.
+
+<details>
+<summary>Solution</summary>
+
+```python
+def multiply(num1, num2):
+    return num1 * num2
+```
+
+</details>
+<br/>
+
+What will be the output of the following code?
+
+```python
+def divide(num1, num2):
+    return num1 / num2
+
+divide(4, 5, 6)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+TypeError: divide() takes 2 positional arguments but 3 were given
+```
+
+</details>
+<br/>
+
+What are the two types of conversion in Python? What are the differences?
+
+<details>
+<summary>Solution</summary>
+
+- Implicit conversion
+- Explicit conversion
+
+</details>
+<br/>
+
+What type of conversion happens in the following code?
+
+```python
+num1 = 6
+num2 = 7.54
+print(num1 + num2)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+Implicit conversion
+num1 is implicitly converted from int to float
+```
+
+</details>
+<br/>
+
+What is the output of the following code?
+
+```python
+var1 = "8"
+var2 = 7.54
+print(var1 + var2)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+TypeError: can only concatenate str (not "float") to str
+```
+
+</details>
+<br/>
+
+Cast the following variable to string
+
+```python
+num1 = 7.83
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+num1 = 7.83
+str1 = str(num1)
+print(str1)
+```
+
+</details>
+<br/>
+
+What is the output of the following code?
+
+```python
+num1 = 7
+float1 = float(num1)
+print(float1)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+7.0
+```
+
+</details>
+<br/>
+
+Ask the user for their name, save the answer in a variable and greet the user.
+
+<details>
+<summary>Solution</summary>
+
+```python
+name = input('Enter your name:')
+print('Hello, ' + name)
+```
+
+</details>
+<br/>
