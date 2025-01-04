@@ -426,3 +426,40 @@ print('Hello, ' + name)
 
 </details>
 <br/>
+
+What will be the output of the following code?
+
+```python
+new_list = [1,2,3,4]
+new_list[4] = 10
+print(new_list)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+IndexError: list assignment index out of range
+```
+
+</details>
+<br/>
+
+What will be the output of the following code?
+
+```python
+def myfunc(arg):
+    print(arg[0])
+
+myfunc({'key1':'hello', 'key2':'world'})
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+KeyError: 0
+```
+
+</details>
+<br/>
