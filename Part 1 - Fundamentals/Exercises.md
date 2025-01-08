@@ -463,3 +463,113 @@ KeyError: 0
 
 </details>
 <br/>
+
+How can you get the keys of a given dictionary?
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+keys = mydict.keys()
+```
+
+</details>
+<br/>
+
+What is the output of the following code?
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+keys = mydict.keys()
+print(keys)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+dict_keys(['key1', 'key2'])
+```
+
+</details>
+<br/>
+
+What is the type of the ```keys``` variable?
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+keys = mydict.keys()
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+print(type(keys))
+```
+```
+<class 'dict_keys'>
+```
+
+</details>
+<br/>
+
+How can you get the values of a given dictionary?
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+values = mydict.values()
+```
+
+</details>
+<br/>
+
+What is the output of the following code?
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+values = mydict.values()
+print(values)
+```
+
+<details>
+<summary>Solution</summary>
+
+```
+dict_values(['hello', 'world'])
+```
+
+</details>
+<br/>
+
+What is the type of the ```keys``` variable?
+
+```python
+mydict = {'key1':'hello', 'key2':'world'}
+values = mydict.values()
+```
+
+<details>
+<summary>Solution</summary>
+
+```python
+print(type(values))
+```
+```
+<class 'dict_values'>
+```
+
+</details>
+<br/>
