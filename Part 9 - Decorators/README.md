@@ -107,9 +107,8 @@ def timer_decorator(base_function):
 
 @timer_decorator
 def slow_function(greet, name):
-    print(greet)
     time.sleep(1)   # Pretend its a long API/DB call
-    print(name)
+    return f"{greet} {name}"
 ```
 
 ## Why use it?
