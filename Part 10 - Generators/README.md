@@ -124,6 +124,20 @@ list(my_gen())
 ```
 - This will return a list of all the items
 
+## Generator expressions
+- You can create generators using generator expressions
+
+```python
+gen_exp = (x * x for x in range(5))
+print(gen_exp)
+print(list(gen_exp))
+```
+- Output:
+```
+<generator object <genexpr> at 0x...>
+[0, 1, 4, 9, 16]
+```
+
 ## Why use generators?
 - Generators are memory-efficient because they generate values on-the-fly instead of storing everything in memory
 - Below example generates values on the fly, does not store everything in memory
@@ -184,4 +198,67 @@ print(next(gen_primes_object))
 
 for num in gen_primes(50, 100):
     print(value)
+```
+
+## Fibonacci number generator
+- Get the first 100 Fibonacci numbers:
+```python
+def fibonacci():
+  a, b = 0, 1
+  while True:
+    yield a
+    a, b = b, a + b
+
+gen = fibonacci()
+for _ in range(100):
+  print(next(gen))
+```
+
+## Generator methods
+- Generators have special methods for advanced control
+
+### send()
+- You can send a value to a generator
+
+```python
+def echo_generator():
+  while True:
+    received = yield
+    print("Received:", received)
+
+# Create the generator object
+gen = echo_generator()
+# Prime the generator
+next(gen)
+# Send a value to the generator
+gen.send("Hello")
+gen.send("World")
+```
+- Output:
+
+```python
+Received: Hello
+Received: World
+```
+
+### close()
+- You can stop a generator from working
+
+```python
+def my_gen():
+  try:
+    yield "Hello"
+    yield "World"
+  finally:
+    print("Generator closed")
+
+gen = my_gen()
+print(next(gen))
+gen.close()
+```
+- Output:
+
+```python
+Hello
+Generator closed
 ```
